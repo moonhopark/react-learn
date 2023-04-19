@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import UseMemo from './components/react-basic/UseMemo/UseMemo';
+import UseRef from './components/react-basic/UseRef/UseRef';
+import Timer from './components/react-basic/UseRef/Timer';
 
 const App = () => {
   return (
     <div className="App">
-      <UseMemo />
+      <UseRef />
     </div>
   );
 };
