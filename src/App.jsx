@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import UseEffectDataFetchingOne from './components/react-basic/UseEffect/UseEffectDataFetchingOne';
-import UseEffectDataFetchingTwo from './components/react-basic/UseEffect/UseEffectDataFetchingTwo';
+import UseReducerDataFetchingOne from './components/react-basic/UseReducer/UseReducerDataFetchingOne';
+import UseReducerDataFetchingTwo from './components/react-basic/UseReducer/UseReducerDataFetchingTwo';
 
 const App = () => {
   return (
     <div className="App">
-      <UseEffectDataFetchingOne />
-      <UseEffectDataFetchingTwo />
+      <UseReducerDataFetchingOne />
+      <UseReducerDataFetchingTwo />
     </div>
   );
 };
