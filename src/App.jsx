@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import RootComponent from './components/react-basic/UseReducerUseContext/RootComponent';
+import UseEffectDataFetchingOne from './components/react-basic/UseEffect/UseEffectDataFetchingOne';
+import UseEffectDataFetchingTwo from './components/react-basic/UseEffect/UseEffectDataFetchingTwo';
 
 const App = () => {
   return (
     <div className="App">
-      <RootComponent />
+      <UseEffectDataFetchingOne />
+      <UseEffectDataFetchingTwo />
     </div>
   );
 };

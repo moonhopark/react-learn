@@ -28,11 +28,6 @@ const UseEffectDataFetching = () => {
       <button type="button" onClick={handleClick}>
         Fetch Post
       </button>
-      {/* <ul>
-        {posts.map((post) => (
-          <li key={post.id}>{post.title}</li>
-        ))}
-      </ul> */}
       <div>{post.title}</div>
     </div>
   );
