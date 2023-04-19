@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import ParentComponent from './components/react-basic/UseCallback/ParentComponent';
+import UseMemo from './components/react-basic/UseMemo/UseMemo';
 
 const App = () => {
   return (
     <div className="App">
-      <ParentComponent />
+      <UseMemo />
     </div>
   );
 };
