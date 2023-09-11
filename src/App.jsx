@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Button from './components/styled-components/Button';
+import ListRender from './components/react-basic/ListRender';
 
 const App = () => {
   return (
     <div className="App">
-      <Button />
+      <ListRender />
     </div>
   );
 };
