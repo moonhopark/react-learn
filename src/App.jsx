@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Form from './components/react-basic/Form';
+import InsertDelete from './components/react-basic/List/InsertDelete';
+import Modify from './components/react-basic/List/Modify';
 
 const App = () => {
   return (
     <div className="App">
-      <Form />
+      {/* <InsertDelete /> */}
+      <Modify />
     </div>
   );
 };
