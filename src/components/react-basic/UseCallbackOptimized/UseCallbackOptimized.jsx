@@ -3,7 +3,7 @@ import Title from './Title';
 import Count from './Count';
 import Button from './Button';
 
-const ParentComponent = () => {
+const UseCallbackOptimized = () => {
   const [age, setAge] = useState(26);
   const [salary, setSalary] = useState(5000);
 
@@ -26,4 +26,4 @@ const ParentComponent = () => {
   );
 };
 
-export default ParentComponent;
+export default UseCallbackOptimized;

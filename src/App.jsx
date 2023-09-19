@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import InsertDelete from './components/react-basic/List/InsertDelete';
-import Modify from './components/react-basic/List/Modify';
+import UseCallback from './components/react-basic/UseCallback/UseCallback';
+import UseCallbackOptimized from './components/react-basic/UseCallbackOptimized/UseCallbackOptimized';
 
 const App = () => {
   return (
     <div className="App">
-      {/* <InsertDelete /> */}
-      <Modify />
+      {/* <UseCallback /> */}
+      <UseCallbackOptimized />
     </div>
   );
 };
